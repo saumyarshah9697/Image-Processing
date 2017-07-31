@@ -5,11 +5,6 @@ import pickle
 import numpy as np
 
 
-''' 
-First Edit the Indexer.py to provide the path containing various images
-
-Then run this program    
-'''
 f=open("data.p","rb")
 index=pickle.load(f)
 
